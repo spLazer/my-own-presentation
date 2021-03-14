@@ -1,8 +1,14 @@
+body {
+  background-color: #333333;
+}
+
+
+
 h1 {
     background-color: #333333;
     color: rgb(255, 0, 0);
     padding: 5px;
-    width: 20%;
+    width: 100%;
 
 }
 
@@ -33,4 +39,6 @@ ul {
   }
   
   
-
+#inhalt {
+  background-color: white;
+}
