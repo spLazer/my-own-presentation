@@ -13,6 +13,13 @@ h1 {
 }
 
 /* Styling fuer die Navigation*/
+nav {
+
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -22,7 +29,7 @@ ul {
   }
   
   li {
-    float: left;
+    float:left;
   }
   
   li a {
@@ -61,8 +68,8 @@ body {
 
 /* Create three unequal columns that sits next to each other */
 .column {
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  padding: 20px;
+  height: 100%; /* Should be removed. Only for demonstration */
 }
 
 /* Left and right column */
@@ -81,9 +88,15 @@ body {
 
 /* Style the footer */
 .footer {
-  background-color: #f1f1f1;
+  background-color: #aaa;
   padding: 10px;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
